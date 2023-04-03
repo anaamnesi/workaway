@@ -46,7 +46,7 @@ public class Utente extends Entity {
 				if ((password.charAt(i) >= 65 && password.charAt(i) <= 90)) {
 					trovato = true;
 				}
-
+				i++;
 			}
 
 			if (trovato && password.length() > 5) {
