@@ -6,9 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class WorkawayApplication {
 	
-	public static void main(String[] args) { //main
-		SpringApplication.run(WorkawayApplication.class, args); //metodo run della classe SpringApplication che serve a far
-		//runnare l'app.
+	public static void main(String[] args) {
+		SpringApplication.run(WorkawayApplication.class, args); 
 	}
 
 }
