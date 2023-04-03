@@ -32,7 +32,7 @@ public class HomeController {
 	private DAOHr dhr;
 
 
-	@GetMapping("") 						
+	@GetMapping("")						
 	public String homepage(HttpSession session) { 
 
 		String ris = "";
