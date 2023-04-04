@@ -118,8 +118,9 @@ public class AccessoController {
 		return "redirect:/";
 	}
 
-	@GetMapping("/carrello")  
+	@GetMapping("/carrello")  //qui mi arriva l'id del viaggio e il numero di posti selezionati
 	public String carrello(@RequestParam Map<String, String> map, HttpSession session) {
+		System.out.println(map);
 
 		if (session.getAttribute("utente") == null) {
 			return "redirect:/formlogin";

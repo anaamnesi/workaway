@@ -212,7 +212,8 @@ public class HomeController {
 					return "redirect:/formlogin";
 				}
 			} else {
-				return "redirect:/formRegistrazione";
+				session.setAttribute("errore", "si");
+				return "redirect:/formlogin";
 			}
 		}
 	}

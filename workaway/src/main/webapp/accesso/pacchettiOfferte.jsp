@@ -126,7 +126,9 @@
 								<% } %>
 				
 							</select></div>
+							
 	                        <p class="cost"><%= m.getTariffa() %>€ /A persona</p>
+	                        
 	                        <div class="card-box">
 	                            <p class="buy"><input id="prenotaora" type="submit" value="Prenota"></p>
 	                        </div>
